@@ -4,7 +4,7 @@
 using namespace std;
 
 void insertionSort(int arr[], int n){
-	for(int i=1; i<n; i++){
+    for(int i=1; i<n; i++){
         int value = arr[i];
         int j = i;
         while(j>0 && arr[j-1]>value){
@@ -12,7 +12,7 @@ void insertionSort(int arr[], int n){
             j--;
         }
         arr[j] = value;
-	}
+    }
 }
 
 int main(){
